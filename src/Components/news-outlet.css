@@ -1,0 +1,121 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  flex-direction: column;
+  padding: 30px;
+  font-family: "Boska";
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+h1 {
+  font-family: "Boska";
+  font-size: 65px;
+  text-transform: uppercase;
+}
+
+.grid-child {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.news-title {
+  font-family: "Boska";
+  font-size: 24px;
+  line-height: 1.4;
+  word-spacing: 3px;
+  font-weight: 500;
+  color: black;
+}
+
+.news-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.news-content {
+  font-weight: 600;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  max-width: 90%;
+  color: #808080;
+}
+.news-author {
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.news-published {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.news-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  .grid-main {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  .grid-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  h1 {
+    float: none;
+    text-align: center;
+  }
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  margin-bottom: 3rem;
+  appearance: none;
+}
+
+select::-ms-expand {
+  margin-right: 20px;
+}
+
+.select label {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.select-box {
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+}
+
+

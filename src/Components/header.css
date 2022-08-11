@@ -1,0 +1,12 @@
+header {
+    width: 100vh;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
